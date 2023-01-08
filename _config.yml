@@ -78,7 +78,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           A 2D RPG adventure game developed with Godot that introduces teenagers to computer science and programming concepts through gameplay. Players take on the role of a hacker lamb who infiltrates an evil corp and hacks various robots and computer devices to find key information and complete different tasks.
           
-          ![RoboLamb](/images/robolamb.png "robolamb"
+          ![RoboLamb](/images/robolamb.png "robolamb")
       - layout: center
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
