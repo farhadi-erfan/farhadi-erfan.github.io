@@ -80,6 +80,22 @@ content:
           
           ![RoboLamb](/images/robolamb.png "robolamb")
       - layout: center
+        border:   # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Intro--GD
+        link: https://godotengine.org/asset-library/asset/1403
+        link_text: Godot community Asset library
+        additional_links:
+          - title:  Github page
+            icon: fab fa-github
+            url: https://github.com/farhadi-erfan/intro-gd
+        quote: >
+          2022
+        description: | # this will include new lines to allow paragraphs
+          Easy to use add--on for creating tutorials and introduction section inside godot scenes.
+          
+          ![Godot](/images/godot.png "godot")
+      - layout: center
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Project name
