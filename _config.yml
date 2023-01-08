@@ -38,9 +38,9 @@ additional_links:
 - title: Vimeo
   icon: fab fa-vimeo
   url: https://vimeo.com/user114492824
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+- title: CV
+  icon: fab fa-solid fa-file-user
+  url: https://drive.google.com/file/d/15xWyLMWC3yI37ysMUL-zTZfWd6nGAVyV/view?usp=share_link
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -57,7 +57,8 @@ about_content: | # this will include new lines to allow paragraphs
     - Contributing to <a href="ssc.ce.sharif.edu">SSC</a>, students' scientific chapter of computer engineering department as a central council member
     - Co-Founding an educational NGO, <a href="rastaiha.ir">Rasta</a>, writing its manifest, creating/presenting workshops at events, and managing its media and technical sections
     - Teaching different courses ranging from calculus and programming to creative writing at Iran's <a href="https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents">Nodet</a> schools
-    - Hosting and directing multiple episodes of podcasts and radio plays
+    - Hosting and directing multiple episodes of podcasts and <mark>(even musical!) radio plays</mark>
+    - Designing <a href="http://computermuseum.ir">Iran's computer museum</a> exhibition and curriculum
   
 #  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
