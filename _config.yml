@@ -72,16 +72,6 @@ content:
       - layout: center
         border:   # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: RoboLamb
-        quote: >
-          2022 -- Present (Under development)
-        description: | # this will include new lines to allow paragraphs
-          A 2D RPG adventure game developed with Godot that introduces teenagers to computer science and programming concepts through gameplay. Players take on the role of a hacker lamb who infiltrates an evil corp and hacks various robots and computer devices to find key information and complete different tasks.
-          
-          ![RoboLamb](/images/robolamb.png "robolamb")
-      - layout: center
-        border:   # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
         title: Intro-GD
         link: https://godotengine.org/asset-library/asset/1403
         link_text: Godot community Asset library
@@ -94,7 +84,17 @@ content:
         description: | # this will include new lines to allow paragraphs
           Easy to use add-on for creating tutorials and introduction section inside godot scenes.
           
-          ![RoboLamb](/images/godot.png "godot")
+          ![Godot](/images/godot.png "godot")
+      - layout: center
+        border:   # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: RoboLamb
+        quote: >
+          2022 -- Present (Under development)
+        description: | # this will include new lines to allow paragraphs
+          A 2D RPG adventure game developed with Godot that introduces teenagers to computer science and programming concepts through gameplay. Players take on the role of a hacker lamb who infiltrates an evil corp and hacks various robots and computer devices to find key information and complete different tasks.
+          
+          ![RoboLamb](/images/robolamb.png "robolamb"
        - layout: center
         border:   # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
