@@ -38,6 +38,9 @@ additional_links:
 - title: Vimeo
   icon: fab fa-vimeo
   url: https://vimeo.com/user114492824
+- title: telegram channel
+  icon: fab fa-telegram
+  url: https://t.me/La_Veillee
 - title: CV
   icon: fab fa-paperclip
   url: https://drive.google.com/file/d/15xWyLMWC3yI37ysMUL-zTZfWd6nGAVyV/view?usp=share_link
@@ -57,6 +60,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Contributing to <a href="ssc.ce.sharif.edu">SSC</a>, students' scientific chapter of computer engineering department as a central council member
     - Co-Founding an educational NGO, <a href="rastaiha.ir">Rasta</a>, writing its manifest, creating/presenting workshops at events, and managing its media and technical sections
     - Teaching different courses ranging from calculus and programming to creative writing at Iran's <a href="https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents">Nodet</a> schools
+    - Publishing several short stories in Sharif Daily Magazine
     - Hosting and directing multiple episodes of podcasts and <mark>(even musical!)</mark> radio <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90ZWhyYW5wb2RjYXN0LmlyL2NhdGVnb3J5L3Jhc3RhaWhhL2ZlZWQv/episode/aHR0cHM6Ly90ZWhyYW5wb2RjYXN0LmlyLz9wPTIxNzQz?sa=X&ved=0CAUQkfYCahcKEwiw6taRhbn8AhUAAAAAHQAAAAAQAQ">plays</a>
     - Designing <a href="http://computermuseum.ir">Iran's computer museum</a> exhibition and curriculum
   
