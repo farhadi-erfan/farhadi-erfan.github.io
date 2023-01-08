@@ -72,11 +72,13 @@ content:
       - layout: center
         border:   # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: RoboLamb (Under development)
+        title: RoboLamb
         quote: >
-          A 2D RPG adventure game developed with Godot that introduces teenagers to computer science and programming concepts through gameplay. Players take on the role of a hacker lamb who infiltrates an evil corp and hacks various robots and computer devices to find key information and complete different tasks.
+          Under development
         description: | # this will include new lines to allow paragraphs
-          Images ![alt text](/images/landscape-trees.jpg "Trees")
+          A 2D RPG adventure game developed with Godot that introduces teenagers to computer science and programming concepts through gameplay. Players take on the role of a hacker lamb who infiltrates an evil corp and hacks various robots and computer devices to find key information and complete different tasks.
+          
+          ![RoboLamb](/images/robolamb.png "robolamb")
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
