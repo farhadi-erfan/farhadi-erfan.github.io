@@ -57,8 +57,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Contributing to <a href="ssc.ce.sharif.edu">SSC</a>, students' scientific chapter of computer engineering department as Central council member
     - Cofounding an educational NGO, <a href="rastaiha.ir">Rasta</a>, writing its manifest, creating/presenting workshops at events, and managing its media and technical sections 
     - Executive Direction of multiple events at SSC and Rasta
-    - Teaching different courses ranging from calculus and programming to creative writing at Iran's National Organization for Development of Exceptional Talents schools
-    - Directing an hour-long documentary movie about Iran’s educational system
+    - Teaching different courses ranging from calculus and programming to creative writing at Iran's <a href="https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents">Nodet</a> schools
     - Hosting and directing multiple episodes of a podcasts and radio plays and
   
 #  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
@@ -88,7 +87,9 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-        
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: Project name
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
