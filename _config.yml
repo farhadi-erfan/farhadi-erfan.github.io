@@ -52,7 +52,14 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/photo_2023-01-03_19-46-23.jpg
 about_content: | # this will include new lines to allow paragraphs
-  For as long as I remember, I liked creating things. Whether it was a computer game when I was ten, a projection tool to display screens on water vapor when I was in junior high, or an hour-long feature film in high school, I enjoyed making them all. I majored in Computer Engineering at “The Sharif University of Technology” with hopes of gaining the skills necessary for building software that can make a difference. As a student, in addition to my research and study, I pursued numerous extracurricular activities ranging from directing an hour-long documentary movie about Iran’s educational system and designing Iran's computer museum to co-founding an educational NGO and an ed-tech startup.
+  For as long as I remember, I liked creating things. Whether it was a computer game when I was ten, a projection tool to display screens on water vapor when I was in junior high, or an hour-long feature film in high school, I enjoyed making them all.
+  I studied Computer Engineering at the <mark>Sharif University of Technology</mark> with the goal of acquiring the skills needed for building impactful software. Also, I pursued numerous extracurricular activities like:
+    - Contributing to <a href="ssc.ce.sharif.edu">SSC</a>, students' scientific chapter of computer engineering department as Central council member
+    - Cofounding an educational NGO, <a href="rastaiha.ir">Rasta</a>, writing its manifest, creating/presenting workshops at events, and managing its media and technical sections 
+    - Executive Direction of multiple events at SSC and Rasta
+    - Teaching different courses ranging from calculus and programming to creative writing at Iran's National Organization for Development of Exceptional Talents schools
+    - Directing an hour-long documentary movie about Iran’s educational system
+    - Hosting and directing multiple episodes of a podcasts and radio plays and
   
 #  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
@@ -67,6 +74,21 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+        
         title: Project name
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
