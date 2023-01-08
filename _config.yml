@@ -36,14 +36,8 @@ instagram_username: farhadi.erfan
 # Additional icon links
 additional_links:
 - title: Vimeo
-  icon: https://play-lh.googleusercontent.com/hIckHVP84kogkZ7yGwlMZD8xPnJBDkS_EntshszgtI4kJK0_uCCpbqcuX0GLnJUvN3k
+  icon: fab fa-vimeo
   url: https://vimeo.com/user114492824
-- title: twitter
-  icon: fab fa-twitter
-  url: https://twitter.com
-- title: fa-brands fa-vimeo
-  icon: https://play-lh.googleusercontent.com/hIckHVP84kogkZ7yGwlMZD8xPnJBDkS_EntshszgtI4kJK0_uCCpbqcuX0GLnJUvN3k
-  url: https://vimeo.com
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -58,6 +52,8 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/photo_2023-01-03_19-46-23.jpg
 about_content: | # this will include new lines to allow paragraphs
+  I am a recent graduate in computer engineering with a passion for game development and educational technology. I have gained research experience through various projects, including an internship at Aalto University where I worked on tools for the design process. I have also pursued a variety of creative endeavors, including film making and co-founding an educational NGO. Most recently, I developed and designed an online generalized educational platform called Kamva as my thesis project. I have co-founded a company that creates educational games, including two released games and a current in-production project, a 2D adventure RPG about computer science. I am a resourceful problem-solver with technical expertise and a strong foundation in the arts
+  I like building creative things that can make a change 
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
