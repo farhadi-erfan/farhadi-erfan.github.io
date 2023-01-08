@@ -52,15 +52,13 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/photo_2023-01-03_19-46-23.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a recent graduate in computer engineering with a passion for game development and educational technology. I have gained research experience through various projects, including an internship at Aalto University where I worked on tools for the design process. I have also pursued a variety of creative endeavors, including film making and co-founding an educational NGO. Most recently, I developed and designed an online generalized educational platform called Kamva as my thesis project. I have co-founded a company that creates educational games, including two released games and a current in-production project, a 2D adventure RPG about computer science. I am a resourceful problem-solver with technical expertise and a strong foundation in the arts
-  I like building creative things that can make a change 
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  For as long as I remember, I liked creating things. Whether it was a computer game when I was ten, a projection tool to display screens on water vapor when I was in junior high, or an hour-long feature film in high school, I enjoyed making them all. I majored in Computer Engineering at “The Sharif University of Technology” with hopes of gaining the skills necessary for building software that can make a difference. As a student, in addition to my research and study, I pursued numerous extracurricular activities ranging from directing an hour-long documentary movie about Iran’s educational system and designing Iran's computer museum to co-founding an educational NGO and an ed-tech startup.
+  
+#  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#    - Lists
+#    - Tables
+#    - <a href="google.com">Links</a>
+#    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
