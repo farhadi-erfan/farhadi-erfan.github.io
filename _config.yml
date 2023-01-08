@@ -103,6 +103,7 @@ content:
           2022
         description: | # this will include new lines to allow paragraphs
           A drag & drop 2D game developed with Godot to help elementary students improve their literacy skills through gameplay. Students play as an environmental journalist who writes reports on city events, helps out in the office, and protects a pot of flower.
+          [![Goldoone](/images/goldoone.png 'Goldoone')](https://vimeo.com/787343192)
       - layout: center
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
