@@ -70,7 +70,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: center
-        border:   # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: RoboLamb
         quote: >
@@ -80,7 +80,7 @@ content:
           
           ![RoboLamb](/images/robolamb.png "robolamb")
       - layout: center
-        border:   # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Intro-GD
         link: https://godotengine.org/asset-library/asset/1403
@@ -96,7 +96,7 @@ content:
           
           ![Godot](/images/godot.png "godot")
       - layout: center
-        border:   # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Goldoone
         quote: >
@@ -106,7 +106,7 @@ content:
           
           [![Goldoone](/images/goldoone.png 'Goldoone')](https://vimeo.com/787343192)
       - layout: center
-        border:   # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Fifteen
         link: https://cafebazaar.ir/app/ir.alefedu.fifteen
@@ -118,7 +118,7 @@ content:
           
           ![Fifteen](/images/fif.jpg 'Fifteen')
       - layout: center
-        border:   # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Kamva
         link: https://kamva.academy
@@ -134,7 +134,7 @@ content:
 
           [![Kamva](/images/kamva.png 'Kamva')](https://www.youtube.com/watch?v=5UeoLFCX45c)
       - layout: center
-        border:   # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Clash of civilizations (unfinished)
         quote: >
@@ -144,7 +144,7 @@ content:
 
           ![Clash of civilizations](/images/cards.jpg 'Clash of civilizations')
       - layout: center
-        border:  # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Kabaramadalapeste
         additional_links:
@@ -162,7 +162,7 @@ content:
           
           ![Kabaramadalapeste3](/images/kabar (3).png 'Kabaramadalapeste3')
       - layout: center
-        border:  # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Shined brightly, though...
         quote: >
