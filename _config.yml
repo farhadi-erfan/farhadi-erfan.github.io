@@ -72,20 +72,10 @@ content:
       - layout: center
         border:   # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: RoboLamb
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: RoboLamb (Under development)
         quote: >
-          Short overview of the project (optional)
+          A 2D RPG adventure game developed with Godot that introduces teenagers to computer science and programming concepts through gameplay. Players take on the role of a hacker lamb who infiltrates an evil corp and hacks various robots and computer devices to find key information and complete different tasks.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
           Images ![alt text](/images/landscape-trees.jpg "Trees")
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
