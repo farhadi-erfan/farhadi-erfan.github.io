@@ -128,57 +128,49 @@ content:
             icon: fab fa-github
             url: https://github.com/rastaiha
         quote: >
-          2020 -- 2021 / CTO
+          2020 -- 2022 / CTO
         description: | # this will include new lines to allow paragraphs
           My thesis project. A gamified platform that helps institutes and teachers to hold online workshops and provide semi--personalized content to students. Empirical results shows proposed solution's effectiveness in increasing students' engagement and educational performance.
 
           [![Kamva](/images/kamva.png 'Kamva')](https://www.youtube.com/watch?v=5UeoLFCX45c)
       - layout: center
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        border:   # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Clash of civilizations (unfinished)
         quote: >
-          Short overview of the project (optional)
+          2020 / Designer
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          A realtime online strategy game in which players took on the role of a civilization with two scores: warmongering and science. Warmongering was achieved by collecting cards and winning battles, while science was gained by solving educational quizzes, similar to the website [prodigy](https://www.prodigygame.com).
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          ![Clash of civilizations](/images/cards.jpg 'Clash of civilizations')
+      - layout: center
+        border:  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Kabaramadalapeste
+        additional_links:
+          - title:  Kabaramadalapeste
+            icon: fab fa-github
+            url: https://github.com/Rastaiha/KabaramadalaPeste
+        quote: >
+          2020 / Designer
+        description: | # this will include new lines to allow paragraphs
+          In the early days of Covid--19, we designed an online gamified contest to promote connectivity and interaction during the transition to E--learning. Students played as pirates owning a ship, searching different islands, and solving quizzes/mysteries to find clues about golden pistachio while trading and competing with other fellow pirates.
+          
+          ![Kabaramadalapeste1](/images/kabar (1).png 'Kabaramadalapeste1')
+          
+          ![Kabaramadalapeste2](/images/kabar (2).png 'Kabaramadalapeste2')
+          
+          ![Kabaramadalapeste3](/images/kabar (3).png 'Kabaramadalapeste3')
+      - layout: center
+        border:  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Shined brightly, though...
+        quote: >
+          2016 -- 2019 / Director
+        description: | # this will include new lines to allow paragraphs
+          A 75-minute documentary based on my memories from school years and Iran's educational system.
+          
+          [![Shined brightly, though...](/images/shined.png 'Shined brightly, though...')](https://vimeo.com/414334902)
 
 # Footer
 footer_show_references: true
