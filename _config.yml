@@ -82,7 +82,7 @@ content:
       - layout: center
         border:   # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Intro--GD
+        title: Intro-GD
         link: https://godotengine.org/asset-library/asset/1403
         link_text: Godot community Asset library
         additional_links:
@@ -95,6 +95,17 @@ content:
           Easy to use add--on for creating tutorials and introduction section inside godot scenes.
           
           ![Godot](/images/godot.png "godot")
+       - layout: center
+        border:   # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Goldoone
+        quote: >
+          2022
+        description: | # this will include new lines to allow paragraphs
+          A drag-and-drop 2D game developed with Godot to help elementary students improve their literacy skills through gameplay. Students play as an environmental journalist who writes reports on city events, helps out in the office, and protects a pot of flower.
+          
+          #![Goldoone](/images/goldoone.png "Goldoone")
+          #[![[Goldoone Text]({/images/goldoone.png})]({https://vimeo.com/787343192} "Goldoone")
       - layout: center
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
