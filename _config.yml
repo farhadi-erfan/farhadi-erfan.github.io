@@ -102,7 +102,7 @@ content:
         quote: >
           2022
         description: | # this will include new lines to allow paragraphs
-          A drag-and-drop 2D game developed with Godot to help elementary students improve their literacy skills through gameplay. Students play as an environmental journalist who writes reports on city events, helps out in the office, and protects a pot of flower.
+          A drag & drop 2D game developed with Godot to help elementary students improve their literacy skills through gameplay. Students play as an environmental journalist who writes reports on city events, helps out in the office, and protects a pot of flower.
           
           #![Goldoone](/images/goldoone.png "Goldoone")
           #[![[Goldoone Text]({/images/goldoone.png})]({https://vimeo.com/787343192} "Goldoone")
