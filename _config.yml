@@ -151,7 +151,7 @@ content:
       - layout: center
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Kabarama dalapeste <mark><sub><sup>(Yes, I named it :D)</sup></sub></mark>
+        title: Kabarama dalapeste  </br> <mark><sub><sup>(Yes, I named it :D)</sup></sub></mark>
         additional_links:
           - title:  Kabaramadalapeste
             icon: fab fa-github
