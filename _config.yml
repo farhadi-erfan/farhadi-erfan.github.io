@@ -141,9 +141,9 @@ content:
       - layout: center
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Clash of civilizations (unfinished)
+        title: Clash of civilizations
         quote: >
-          2020 / Designer
+          2020 (unfinished) / Designer
         description: | # this will include new lines to allow paragraphs
           A realtime online strategy game in which players took on the role of a civilization with two scores: warmongering and science. Warmongering was achieved by collecting cards and winning battles, while science was gained by solving educational quizzes, similar to the website [prodigy](https://www.prodigygame.com).
 
