@@ -103,7 +103,7 @@ content:
       - layout: center  # Corrected indentation starts here
         border: weak  
         
-        title: CoColor: interactive exploration of color designs
+        title: CoColor interactive exploration of color designs
         quote: >
           2022 | Contributor
         description: |
