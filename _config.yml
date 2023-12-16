@@ -85,26 +85,36 @@ content:
         description: | # this will include new lines to allow paragraphs
           Small sample of multiple Installment, Interactive Display and MiniGames Developed for Iran Computer Museum Project 
           
-          ![AI Tree](/images/screenshot1.png "AI Tree")
-          <a href="https://ai-tree.darkube.app/"> Tree of AI </a>
-          ![Calculus of words](/images/screenshot2.png "Calculus of words")
+          ![AI Tree](/images/screenshot1.png "AI Tree") <br/>
+          <a href="https://ai-tree.darkube.app/"> Tree of AI </a> <br/>
+          ![Calculus of words](/images/screenshot2.png "Calculus of words") <br/>
           <a href="https://word2vec.darkube.app/?show_colors=true&show_relations=true"> Calculus of Words </a>
       - layout: center
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Watching Others Asleep
         quote: >
-          2023 (Post Production) / Writer / Director
+          2023 (Post Production) | Writer, Director
         description: | # this will include new lines to allow paragraphs
           A 22-minute long short movie; anticipated to be premiered in upcoming short movie festivals. Synopsis: "Sahand was an ordinary guy, with an ordinary nice life. The only problem was that he was burdened with a secret he wasn't even aware of."
           
           ![WatchingOthersAsleep](/images/poster.png "Watching Others Asleep")
+        - layout: center
+      border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                    # other value (or no value) means no border will be displayed
+      title: CoColor: interactive exploration of color designs
+      quote: >
+        2022 | Contributor
+      description: | # this will include new lines to allow paragraphs
+        introduced a novel interaction for color design process. published at IUI23.
+        
+        ![CoColor](/images/screenshot3.png "CoColor")
       - layout: center
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: RoboLamb
         quote: >
-          2022 -- Present (Under development) / Designer & Developer
+          2022 -- 2023 / Designer & Developer
         description: | # this will include new lines to allow paragraphs
           A 2D RPG adventure game developed with Godot that introduces teenagers to computer science and programming concepts through gameplay. Players take on the role of a hacker lamb who infiltrates an evil corp and hacks various robots and computer devices to find key information and complete different tasks.
           
