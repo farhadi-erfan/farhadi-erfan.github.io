@@ -85,9 +85,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Small sample of multiple Installments, Interactive Displays and MiniGames Developed for Iran Computer Museum Project 
           
-          ![AI Tree](/images/screenshot1.png "AI Tree") <br/>
-          <a href="https://ai-tree.darkube.app/"> Tree of AI </a> <br/>
-          ![Calculus of words](/images/screenshot2.png "Calculus of words") <br/>
+          ![AI Tree](/images/screenshot1.png "AI Tree") </br>
+          <a href="https://ai-tree.darkube.app/"> Tree of AI </a> </br>
+          ![Calculus of words](/images/screenshot2.png "Calculus of words") </br>
           <a href="https://word2vec.darkube.app/?show_colors=true&show_relations=true"> Calculus of Words </a>
       - layout: center
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
