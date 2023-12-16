@@ -77,6 +77,31 @@ content:
       - layout: center
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
+        title: Iran Computer Museum 
+        link: https://computermuseum.ir/
+        link_text: Website
+        quote: >
+          2020 -- 2023 | Lead Designer / Content Curator
+        description: | # this will include new lines to allow paragraphs
+          Small sample of multiple Installment, Interactive Display and MiniGames Developed for Iran Computer Museum Project 
+          
+          ![AI Tree](/images/screenshot1.png "AI Tree")
+          <a href="https://ai-tree.darkube.app/"> Tree of AI </a>
+          ![Calculus of words](/images/screenshot2.png "Calculus of words")
+          <a href="https://word2vec.darkube.app/?show_colors=true&show_relations=true"> Calculus of Words </a>
+      - layout: center
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Watching Others Asleep
+        quote: >
+          2023 (Post Production) / Writer / Director
+        description: | # this will include new lines to allow paragraphs
+          A 22-minute long short movie; anticipated to be premiered in upcoming short movie festivals. Synopsis: "Sahand was an ordinary guy, with an ordinary nice life. The only problem was that he was burdened with a secret he wasn't even aware of."
+          
+          ![WatchingOthersAsleep](/images/poster.png "Watching Others Asleep")
+      - layout: center
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: RoboLamb
         quote: >
           2022 -- Present (Under development) / Designer & Developer
