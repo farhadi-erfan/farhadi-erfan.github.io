@@ -19,6 +19,8 @@ social: true
 
 announcements:
   enabled: false
+  scrollable: false
+  limit: 10
 latest_posts:
   enabled: false
 ---
@@ -42,41 +44,19 @@ latest_posts:
 
 ## About {#about}
 
-I am a PhD student in Computer Science at the University of Rochester, advised by Prof. Zhen Bai. My research focuses on <span class="soft-highlight">embodied agents</span>, <span class="soft-highlight">interactive and tangible AI literacy</span>, and educational technology: how learners encounter AI through games, spatial interaction, and exploratory learning environments.
+I am a PhD student in Computer Science at the University of Rochester, advised by Prof. Zhen Bai. I design and study <span class="soft-highlight">embodied agents</span> and <span class="soft-highlight">interactive AI literacy experiences</span>, especially learning systems where students encounter AI through games, spatial interaction, tangible metaphors, and exploratory environments.
 
-Before Rochester, I studied Computer Engineering at Sharif University of Technology and Cinema Studies at Soore University of Arts. My love for movies and storytelling shapes how I think about technology: not only as software, but also as a cultural, educational, and expressive medium. Along the way, I contributed to SSC, co-founded the educational NGO [Rasta](https://rastaiha.ir), taught programming and creative writing at NODET schools, published short stories, directed podcasts and radio plays, and designed and curated the exhibition and curriculum for [Iran's Computer Museum](https://computermuseum.ir/).
+My background moves between engineering, cinema, and education. I studied Computer Engineering at Sharif University of Technology and Cinema Studies at Soore University of Arts, and that mix still shapes my work: I often think of technology not only as software, but also as a medium for narrative, culture, learning, and imagination. This thread also appears in my cinema/AI work, from movie-scene search and narrative pattern mining to VLM-based analysis of cinematic style.
 
-For as long as I remember, I have liked creating things. Whether it was a computer game when I was ten, a projection tool for displaying screens on water vapor in junior high, or an hour-long feature film in high school, I have always been drawn to <span class="soft-highlight">reimagining reality through creative ideas</span>.
+Along the way, I contributed to SSC, co-founded the educational NGO [Rasta](https://rastaiha.ir), taught programming and creative writing at NODET schools, published short stories, directed podcasts and radio plays, and designed and curated the exhibition and curriculum for [Iran's Computer Museum](https://computermuseum.ir/). For me, research, software, games, and film are different ways of asking the same question: how can we build experiences that help people <span class="soft-highlight">see the world differently</span>?
 
 ## News {#news}
 
-- **January 2026:** BeeTrap-MC received the AAAI/ACM SIGAI Innovative AI Education Award and was published at EAAI 2026.
-- **June 2026:** Meet Bip was accepted to ISLS 2026.
-- **July 2025:** BeeCurious was presented at AIED 2025 Interactive Events.
-- **May 2024:** My short film *Watching Others Sleep* was screened at Tehran Short Film Week.
-- **August 2024:** I started my PhD in Computer Science at the University of Rochester.
-- **December 2023:** Iran's Computer Museum opened to the public.
+{% include news.liquid limit=true %}
 
 ## Publications {#publications}
 
-**BeeTrap-MC: A Minecraft-Based AI Literacy Tool for Teaching Filter Bubbles**  
-Erfan Farhadi, Kenneth Fei, Yifan Jiang, Zhen Bai. EAAI 2026, Singapore.  
-[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/41524)
-
-**CoColor: Interactive Exploration of Color Designs**  
-Lena Hegemann, Niraj Dayama, Marchenko Ekaterina, Abhishek Iyer, Erfan Farhadi, Antti Oulasvirta. ACM IUI 2023, Melbourne, Australia.  
-[Paper](https://dl.acm.org/doi/abs/10.1145/3581641.3584089)
-
-**DANI: Fast Diffusion Aware Network Inference**  
-Maryam Remezani, Aryan Ahadinia, Erfan Farhadi, Hamid R. Rabiee. Scientific Reports.  
-[Paper](https://rdcu.be/em5MF)
-
-**BeeCurious: A Minecraft-Based Testbed for Peer Agents in ELEs**  
-Erfan Farhadi, Kenneth Fei, Zhen Bai. AIED 2025 Interactive Events, Palermo, Italy.  
-[Program](https://aied2025.itd.cnr.it/index.php/program/interactive-events/)
-
-**Meet Bip: Understanding Student-Peer Agent Interaction in Embodied ELEs**  
-Erfan Farhadi, Kenneth Fei, Yifan Jiang, Zhen Bai. Accepted to ISLS 2026, Irvine, CA.
+{% include selected_papers.liquid %}
 
 ## Projects {#projects}
 
