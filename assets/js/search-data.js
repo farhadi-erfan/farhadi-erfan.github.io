@@ -471,16 +471,6 @@ ninja.data = [{
           description: "Godot add-on for tutorials and onboarding sequences",
           section: "Projects",handler: () => {
               window.location.href = "/projects/intro-gd/";
-            },},{id: "projects-kamva",
-          title: 'Kamva',
-          description: "Gamified online workshop and learning platform",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/kamva/";
-            },},{id: "projects-robolamb",
-          title: 'RoboLamb',
-          description: "Godot RPG for learning computer science concepts",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/robolamb/";
             },},{id: "projects-watching-others-sleep",
           title: 'Watching Others Sleep',
           description: "Short film, writer and director",
