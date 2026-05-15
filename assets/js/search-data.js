@@ -466,11 +466,6 @@ ninja.data = [{
           description: "Embodied peer agent for exploratory learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/beecurious/";
-            },},{id: "projects-beetrap-mc",
-          title: 'BeeTrap-MC',
-          description: "Minecraft-based learning tool about filter bubbles",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/beetrap-mc/";
             },},{id: "projects-cocolor",
           title: 'CoColor',
           description: "Interactive exploration of color designs",
