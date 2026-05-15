@@ -461,11 +461,6 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-cocolor",
-          title: 'CoColor',
-          description: "Interactive exploration of color designs",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/cocolor/";
             },},{id: "projects-goldoone",
           title: 'Goldoone',
           description: "Literacy-focused 2D game for elementary students",
