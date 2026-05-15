@@ -79,27 +79,23 @@ Erfan Farhadi, Kenneth Fei, Yifan Jiang, Zhen Bai. Accepted to ISLS 2026, Irvine
 
 ## Projects {#projects}
 
-### 2024--2026 · BeeTrap-MC
+### 2024--2026 · BeeCurious
 
-A Minecraft-based AI literacy tool for teaching filter bubbles, recommendation systems, and AI-driven personalization through embodied, game-based interaction.
+BeeCurious is my umbrella project for Minecraft-based AI literacy and embodied peer-agent research. It includes **BeeTrap-MC**, which teaches filter bubbles and recommendation systems through gameplay, and **Meet Bip**, an embodied bee agent designed to support learners through spatially grounded dialogue, bounded knowledge, and exploratory scaffolding.
 
-### 2025--2026 · BeeCurious / Meet Bip
+### 2023--2024 · Computational Cinema & Narrative Intelligence
 
-A Minecraft-based testbed for studying embodied peer agents in exploratory learning environments. The project investigates spatially grounded dialogue, bounded knowledge, and AI literacy scaffolding.
+An umbrella for my work on movies, visual language models, and narrative pattern mining. This includes my movie-scene search prototype, which combines large language models, computer vision, and information retrieval to support semantic search over films.
 
-### 2023--2024 · Movie Scene Search System
+### 2023--2024 · Watching Others Sleep
 
-A research prototype combining large language models, computer vision, and information retrieval to support efficient search over movie scenes.
-
-### 2023 · Watching Others Sleep
-
-A 22-minute short film about an ordinary man whose life is shaped by a secret he does not know he carries.
+A 22-minute short film screened at Tehran Short Film Week in May 2024.
 
 <img class="portfolio-img poster" src="https://raw.githubusercontent.com/farhadi-erfan/farhadi-erfan-old/master/images/poster.png" alt="Watching Others Sleep poster">
 
 ### 2020--2023 · Iran Computer Museum
 
-Lead Designer and Content Curator. I designed the museum's main exhibit narrative, educational tours, interactive installations, and learning materials.
+Lead Designer and Content Curator. I designed the museum's main exhibit narrative, educational tours, interactive installations, and learning materials. The museum opened to the public in December 2023.
 
 [Website](https://computermuseum.ir/)  
 [Tree of AI](https://ai-tree.darkube.app/)  
