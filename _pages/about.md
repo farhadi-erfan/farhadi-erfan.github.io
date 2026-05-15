@@ -38,7 +38,8 @@ latest_posts:
   .publications .pub-right { flex: 1 1 auto; min-width: 0; }
   .publications .pub-badge { display: block; width: 100%; padding: 0.32rem 0.45rem; white-space: normal; }
   .publications .pub-links { margin-top: 0.45rem; }
-  .publications .pub-links .btn { display: block; width: 100%; margin: 0 0 0.42rem 0; padding: 0.28rem 0.35rem; font-size: 0.72rem; line-height: 1.1; }
+  .publications .pub-links .btn { display: block; width: 100%; margin: 0 0 0.42rem 0; padding: 0.28rem 0.35rem; font-size: 0.72rem; line-height: 1.1; background-color: var(--global-theme-color); border-color: var(--global-theme-color); color: #111 !important; font-weight: 600; }
+  .publications .pub-links .btn:hover { filter: brightness(1.08); color: #111 !important; }
   @media (max-width: 575px) {
     .publications .pub-entry { flex-direction: column; gap: 0.7rem; }
     .publications .pub-left { flex: none; width: 150px; max-width: 150px; }
