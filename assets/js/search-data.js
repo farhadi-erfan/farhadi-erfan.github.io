@@ -461,6 +461,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-goldoone",
+          title: 'Goldoone',
+          description: "Literacy-focused 2D game for elementary students",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/goldoone/";
+            },},{id: "projects-intro-gd",
+          title: 'Intro-GD',
+          description: "Godot add-on for tutorials and onboarding sequences",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/intro-gd/";
+            },},{id: "projects-robolamb",
+          title: 'RoboLamb',
+          description: "Godot RPG for learning computer science concepts",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robolamb/";
+            },},{id: "projects-watching-others-sleep",
+          title: 'Watching Others Sleep',
+          description: "Short film, writer and director",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/watching-others-sleep/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
