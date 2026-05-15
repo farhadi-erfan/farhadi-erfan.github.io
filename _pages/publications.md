@@ -2,17 +2,12 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Publications, posters, and demos.
-nav: true
+description: Publications are listed on the homepage.
+nav: false
 nav_order: 3
 ---
 
-<!-- _pages/publications.md -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+<!--
+Publications are intentionally listed on the single-page homepage.
+This standalone page is hidden from navigation.
+-->
