@@ -391,10 +391,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-short-film-watching-others-sleep-was-screened-at-tehran-short-film-week",
-          title: 'My short film Watching Others Sleep was screened at Tehran Short Film Week....',
-          description: "",
-          section: "News",},{id: "news-beecurious-was-presented-at-aied-2025-interactive-events",
+            },},{id: "news-beecurious-was-presented-at-aied-2025-interactive-events",
           title: 'BeeCurious was presented at AIED 2025 Interactive Events.',
           description: "",
           section: "News",},{id: "news-beetrap-mc-received-the-aaai-acm-sigai-innovative-ai-education-award-and-was-published-at-eaai-2026",
