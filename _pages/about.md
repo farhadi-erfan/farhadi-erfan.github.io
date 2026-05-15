@@ -54,15 +54,9 @@ Along the way, I contributed to SSC, co-founded the educational NGO [Rasta](http
 
 {% include news.liquid limit=true %}
 
-## Publications {#publications}
+## Selected Publications {#publications}
 
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+{% include selected_papers.liquid %}
 
 ## Projects {#projects}
 
