@@ -33,8 +33,16 @@ latest_posts:
   .portfolio-img { display: block; max-width: 100%; width: min(100%, 760px); max-height: 460px; object-fit: contain; margin: 1rem auto 1.75rem auto; border-radius: 0.5rem; }
   .portfolio-img.poster { width: min(100%, 420px); max-height: 640px; }
   .soft-highlight { background: rgba(255, 230, 120, 0.35); border-radius: 0.2rem; padding: 0 0.15rem; font-size: 1em; }
-  #publications .publications .abbr { padding-left: 0; padding-right: 1.75rem; }
-  #publications .publications .abbr abbr.badge { display: block; width: 100% !important; min-width: 130px; padding: 0.35rem 0.5rem; }
+  .publications .pub-entry { display: flex; align-items: flex-start; gap: 1.4rem; margin-bottom: 2.1rem; width: 100%; }
+  .publications .pub-left { flex: 0 0 125px; max-width: 125px; text-align: center; }
+  .publications .pub-right { flex: 1 1 auto; min-width: 0; }
+  .publications .pub-badge { display: block; width: 100%; padding: 0.32rem 0.45rem; white-space: normal; }
+  .publications .pub-links { margin-top: 0.45rem; }
+  .publications .pub-links .btn { display: block; width: 100%; margin: 0 0 0.42rem 0; padding: 0.28rem 0.35rem; font-size: 0.72rem; line-height: 1.1; }
+  @media (max-width: 575px) {
+    .publications .pub-entry { flex-direction: column; gap: 0.7rem; }
+    .publications .pub-left { flex: none; width: 150px; max-width: 150px; }
+  }
 </style>
 
 <nav class="page-nav">
@@ -59,14 +67,6 @@ Along the way, I contributed to SSC, co-founded the educational NGO [Rasta](http
 ## Selected Publications {#publications}
 
 {% include selected_papers.liquid %}
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('#publications .more-authors').forEach(function (element) {
-      element.click();
-    });
-  });
-</script>
 
 ## Projects {#projects}
 
