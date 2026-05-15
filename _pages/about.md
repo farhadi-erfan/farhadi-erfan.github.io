@@ -94,7 +94,17 @@ latest_posts:
     display: block;
     width: 100%;
     padding: 0.32rem 0.45rem;
+    color: #111 !important;
+    background-color: var(--global-theme-color) !important;
+    border-color: var(--global-theme-color) !important;
+    box-shadow: none;
     white-space: normal;
+  }
+
+  .publications .pub-badge a,
+  .publications .pub-badge div {
+    color: #111 !important;
+    font-weight: 700;
   }
 
   .publications .title {
