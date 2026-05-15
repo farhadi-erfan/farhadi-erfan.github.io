@@ -461,11 +461,6 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-beecurious-and-meet-bip",
-          title: 'BeeCurious and Meet Bip',
-          description: "Embodied peer agent for exploratory learning",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/beecurious/";
             },},{id: "projects-cocolor",
           title: 'CoColor',
           description: "Interactive exploration of color designs",
