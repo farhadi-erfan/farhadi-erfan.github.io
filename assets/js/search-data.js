@@ -471,11 +471,6 @@ ninja.data = [{
           description: "Godot add-on for tutorials and onboarding sequences",
           section: "Projects",handler: () => {
               window.location.href = "/projects/intro-gd/";
-            },},{id: "projects-iran-computer-museum",
-          title: 'Iran Computer Museum',
-          description: "Exhibit design, interactive installations, and public education",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/iran-computer-museum/";
             },},{id: "projects-kamva",
           title: 'Kamva',
           description: "Gamified online workshop and learning platform",
