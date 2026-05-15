@@ -511,6 +511,26 @@ ninja.data = [{
           description: "Interactive exploration of color designs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cocolor/";
+            },},{id: "projects-iran-computer-museum",
+          title: 'Iran Computer Museum',
+          description: "Exhibit design, interactive installations, and public education",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/iran-computer-museum/";
+            },},{id: "projects-kamva",
+          title: 'Kamva',
+          description: "Gamified online workshop and learning platform",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/kamva/";
+            },},{id: "projects-movie-scene-search-system",
+          title: 'Movie Scene Search System',
+          description: "LLM, computer vision, and information retrieval for cinema",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/movie-scene-search/";
+            },},{id: "projects-robolamb",
+          title: 'RoboLamb',
+          description: "Godot RPG for learning computer science concepts",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robolamb/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
