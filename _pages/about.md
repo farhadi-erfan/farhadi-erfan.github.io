@@ -33,6 +33,8 @@ latest_posts:
   .portfolio-img { display: block; max-width: 100%; width: min(100%, 760px); max-height: 460px; object-fit: contain; margin: 1rem auto 1.75rem auto; border-radius: 0.5rem; }
   .portfolio-img.poster { width: min(100%, 420px); max-height: 640px; }
   .soft-highlight { background: rgba(255, 230, 120, 0.35); border-radius: 0.2rem; padding: 0 0.15rem; font-size: 1em; }
+  #publications .publications .abbr { padding-left: 0; padding-right: 1.75rem; }
+  #publications .publications .abbr abbr.badge { display: block; width: 100% !important; min-width: 130px; padding: 0.35rem 0.5rem; }
 </style>
 
 <nav class="page-nav">
@@ -46,7 +48,7 @@ latest_posts:
 
 I am a PhD student in Computer Science at the University of Rochester, advised by Prof. Zhen Bai. I design and study <span class="soft-highlight">embodied agents</span> and <span class="soft-highlight">interactive AI literacy experiences</span>, especially learning systems where students encounter AI through games, spatial interaction, tangible metaphors, and exploratory environments.
 
-My background moves between engineering, cinema, and education. I studied Computer Engineering at Sharif University of Technology and Cinema Studies at Soore University of Arts, and that mix still shapes my work: I often think of technology not only as software, but also as a medium for narrative, culture, learning, and imagination. This thread also appears in my cinema/AI work, from movie-scene search and narrative pattern mining to VLM-based analysis of cinematic style.
+My background moves between engineering, cinema, and education. I studied Computer Engineering at Sharif University of Technology and Cinema Studies at Soore University of Arts, and that mix still shapes my work: I often think of technology not only as software, but also as a medium for narrative, culture, learning, and imagination. This thread continues in my current work on AI and cinema, where I extend my master's thesis through movie-scene search, narrative pattern mining, and VLM-based analysis of cinematic style.
 
 Along the way, I contributed to SSC, co-founded the educational NGO [Rasta](https://rastaiha.ir), taught programming and creative writing at NODET schools, published short stories, directed podcasts and radio plays, and designed and curated the exhibition and curriculum for [Iran's Computer Museum](https://computermuseum.ir/). For me, research, software, games, and film are different ways of asking the same question: how can we build experiences that help people <span class="soft-highlight">see the world differently</span>?
 
@@ -58,21 +60,29 @@ Along the way, I contributed to SSC, co-founded the educational NGO [Rasta](http
 
 {% include selected_papers.liquid %}
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('#publications .more-authors').forEach(function (element) {
+      element.click();
+    });
+  });
+</script>
+
 ## Projects {#projects}
 
-### 2024--2026 · BeeCurious
+### 2024--present · BeeCurious
 
-BeeCurious brings together my Minecraft-based AI literacy and embodied peer-agent research. It includes **BeeTrap-MC**, which teaches filter bubbles and recommendation systems through gameplay, and **Meet Bip**, an embodied bee agent designed to support learners through spatially grounded dialogue, bounded knowledge, and exploratory scaffolding.
+BeeCurious is my ongoing Minecraft-based AI literacy and embodied peer-agent research. It includes **BeeTrap-MC**, which teaches filter bubbles and recommendation systems through gameplay, and **Meet Bip**, an embodied bee agent designed to support learners through spatially grounded dialogue, bounded knowledge, and exploratory scaffolding.
 
-### 2023--2025 · AI for Cinema and Narrative Studies
+### 2023--present · AI for Cinema and Narrative Studies
 
-My work at the intersection of cinema, AI, and computational narrative analysis. It includes movie-scene search with large language models, computer vision, and information retrieval; narrative pattern mining over plot structures; and VLM-based analysis of cinematic style through lighting, color, framing, spatial organization, atmosphere, and genre-level visual patterns.
+Continuing my master's thesis on AI and cinema, this ongoing line of work explores how computational methods can support film and narrative studies. It includes movie-scene search with large language models, computer vision, and information retrieval; narrative pattern mining over plot structures; and VLM-based analysis of cinematic style through lighting, color, framing, spatial organization, atmosphere, and genre-level visual patterns.
 
-### 2023--2024 · Watching Others Sleep
+### 2023--2024 · Watching Others Asleep
 
 A 22-minute short film screened at Tehran Short Film Week in May 2024.
 
-<img class="portfolio-img poster" src="/assets/img/watching-others-sleep-poster.jpg" alt="Watching Others Sleep poster">
+<img class="portfolio-img poster" src="/assets/img/watching-others-sleep-poster.jpg" alt="Watching Others Asleep poster">
 
 ### 2020--2023 · Iran Computer Museum
 
