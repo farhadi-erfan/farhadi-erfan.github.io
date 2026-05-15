@@ -7,7 +7,7 @@ nav: false
 
 profile:
   align: right
-  image: https://raw.githubusercontent.com/farhadi-erfan/farhadi-erfan-old/master/images/photo_2023-01-03_19-46-23.jpg
+  image: "https://raw.githubusercontent.com/farhadi-erfan/farhadi-erfan-old/master/images/photo_2023-01-03_19-46-23.jpg"
   image_circular: false
   more_info: >
     University of Rochester<br>
