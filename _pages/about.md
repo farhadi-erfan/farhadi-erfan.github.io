@@ -64,7 +64,7 @@ Along the way, I contributed to SSC, co-founded the educational NGO [Rasta](http
 
 BeeCurious brings together my Minecraft-based AI literacy and embodied peer-agent research. It includes **BeeTrap-MC**, which teaches filter bubbles and recommendation systems through gameplay, and **Meet Bip**, an embodied bee agent designed to support learners through spatially grounded dialogue, bounded knowledge, and exploratory scaffolding.
 
-### 2023--2025 · Computational Cinema & Narrative Intelligence
+### 2023--2025 · AI for Cinema and Narrative Studies
 
 My work at the intersection of cinema, AI, and computational narrative analysis. It includes movie-scene search with large language models, computer vision, and information retrieval; narrative pattern mining over plot structures; and VLM-based analysis of cinematic style through lighting, color, framing, spatial organization, atmosphere, and genre-level visual patterns.
 
