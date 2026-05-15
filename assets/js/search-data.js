@@ -511,6 +511,11 @@ ninja.data = [{
           description: "Interactive exploration of color designs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cocolor/";
+            },},{id: "projects-goldoone",
+          title: 'Goldoone',
+          description: "Literacy-focused 2D game for elementary students",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/goldoone/";
             },},{id: "projects-iran-computer-museum",
           title: 'Iran Computer Museum',
           description: "Exhibit design, interactive installations, and public education",
@@ -526,6 +531,11 @@ ninja.data = [{
           description: "LLM, computer vision, and information retrieval for cinema",
           section: "Projects",handler: () => {
               window.location.href = "/projects/movie-scene-search/";
+            },},{id: "projects-robolamb",
+          title: 'RoboLamb',
+          description: "Godot RPG for learning computer science concepts",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robolamb/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
