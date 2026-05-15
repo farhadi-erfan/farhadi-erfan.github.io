@@ -481,11 +481,6 @@ ninja.data = [{
           description: "Gamified online workshop and learning platform",
           section: "Projects",handler: () => {
               window.location.href = "/projects/kamva/";
-            },},{id: "projects-movie-scene-search-system",
-          title: 'Movie Scene Search System',
-          description: "LLM, computer vision, and information retrieval for cinema",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/movie-scene-search/";
             },},{id: "projects-robolamb",
           title: 'RoboLamb',
           description: "Godot RPG for learning computer science concepts",
