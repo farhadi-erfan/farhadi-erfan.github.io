@@ -30,6 +30,7 @@ latest_posts:
   .page-nav a { border: 1px solid var(--global-divider-color); border-radius: 999px; padding: 0.35rem 0.75rem; font-size: 0.9rem; text-decoration: none; }
   .portfolio-img { display: block; max-width: 100%; width: min(100%, 760px); max-height: 460px; object-fit: contain; margin: 1rem auto 1.75rem auto; border-radius: 0.5rem; }
   .portfolio-img.poster { width: min(100%, 420px); max-height: 640px; }
+  .soft-highlight { background: rgba(255, 230, 120, 0.35); border-radius: 0.2rem; padding: 0 0.15rem; font-size: 1em; }
 </style>
 
 <nav class="page-nav">
@@ -41,19 +42,19 @@ latest_posts:
 
 ## About {#about}
 
-I am a PhD student in Computer Science at the University of Rochester, advised by Prof. Zhen Bai. My research focuses on <mark>embodied agents</mark>, <mark>interactive and tangible AI literacy</mark>, and educational technology: how learners encounter AI through games, spatial interaction, and exploratory learning environments.
+I am a PhD student in Computer Science at the University of Rochester, advised by Prof. Zhen Bai. My research focuses on <span class="soft-highlight">embodied agents</span>, <span class="soft-highlight">interactive and tangible AI literacy</span>, and educational technology: how learners encounter AI through games, spatial interaction, and exploratory learning environments.
 
 Before Rochester, I studied Computer Engineering at Sharif University of Technology and Cinema Studies at Soore University of Arts. My love for movies and storytelling shapes how I think about technology: not only as software, but also as a cultural, educational, and expressive medium. Along the way, I contributed to SSC, co-founded the educational NGO [Rasta](https://rastaiha.ir), taught programming and creative writing at NODET schools, published short stories, directed podcasts and radio plays, and designed and curated the exhibition and curriculum for [Iran's Computer Museum](https://computermuseum.ir/).
 
-For as long as I remember, I have liked creating things. Whether it was a computer game when I was ten, a projection tool for displaying screens on water vapor in junior high, or an hour-long feature film in high school, I have always been drawn to <mark>reimagining reality through creative ideas</mark>.
+For as long as I remember, I have liked creating things. Whether it was a computer game when I was ten, a projection tool for displaying screens on water vapor in junior high, or an hour-long feature film in high school, I have always been drawn to <span class="soft-highlight">reimagining reality through creative ideas</span>.
 
 ## News {#news}
 
-- **2026:** BeeTrap-MC received the AAAI/ACM SIGAI Innovative AI Education Award and was published at EAAI 2026.
-- **2026:** Meet Bip was accepted to ISLS 2026.
-- **2025:** BeeCurious was presented at AIED 2025 Interactive Events.
+- **January 2026:** BeeTrap-MC received the AAAI/ACM SIGAI Innovative AI Education Award and was published at EAAI 2026.
+- **June 2026:** Meet Bip was accepted to ISLS 2026.
+- **July 2025:** BeeCurious was presented at AIED 2025 Interactive Events.
 - **May 2024:** My short film *Watching Others Sleep* was screened at Tehran Short Film Week.
-- **2024:** I started my PhD in Computer Science at the University of Rochester.
+- **August 2024:** I started my PhD in Computer Science at the University of Rochester.
 - **December 2023:** Iran's Computer Museum opened to the public.
 
 ## Publications {#publications}
@@ -81,11 +82,11 @@ Erfan Farhadi, Kenneth Fei, Yifan Jiang, Zhen Bai. Accepted to ISLS 2026, Irvine
 
 ### 2024--2026 · BeeCurious
 
-BeeCurious is my umbrella project for Minecraft-based AI literacy and embodied peer-agent research. It includes **BeeTrap-MC**, which teaches filter bubbles and recommendation systems through gameplay, and **Meet Bip**, an embodied bee agent designed to support learners through spatially grounded dialogue, bounded knowledge, and exploratory scaffolding.
+BeeCurious brings together my Minecraft-based AI literacy and embodied peer-agent research. It includes **BeeTrap-MC**, which teaches filter bubbles and recommendation systems through gameplay, and **Meet Bip**, an embodied bee agent designed to support learners through spatially grounded dialogue, bounded knowledge, and exploratory scaffolding.
 
-### 2023--2024 · Computational Cinema & Narrative Intelligence
+### 2023--2025 · Computational Cinema & Narrative Intelligence
 
-An umbrella for my work on movies, visual language models, and narrative pattern mining. This includes my movie-scene search prototype, which combines large language models, computer vision, and information retrieval to support semantic search over films.
+My work at the intersection of cinema, AI, and computational narrative analysis. It includes movie-scene search with large language models, computer vision, and information retrieval; narrative pattern mining over plot structures; and VLM-based analysis of cinematic style through lighting, color, framing, spatial organization, atmosphere, and genre-level visual patterns.
 
 ### 2023--2024 · Watching Others Sleep
 
