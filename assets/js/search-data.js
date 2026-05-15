@@ -516,6 +516,11 @@ ninja.data = [{
           description: "Literacy-focused 2D game for elementary students",
           section: "Projects",handler: () => {
               window.location.href = "/projects/goldoone/";
+            },},{id: "projects-intro-gd",
+          title: 'Intro-GD',
+          description: "Godot add-on for tutorials and onboarding sequences",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/intro-gd/";
             },},{id: "projects-iran-computer-museum",
           title: 'Iran Computer Museum',
           description: "Exhibit design, interactive installations, and public education",
