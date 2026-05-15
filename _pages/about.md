@@ -29,7 +29,7 @@ latest_posts:
   .page-nav { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.25rem 0 2rem 0; }
   .page-nav a { border: 1px solid var(--global-divider-color); border-radius: 999px; padding: 0.35rem 0.75rem; font-size: 0.9rem; text-decoration: none; }
   .portfolio-img { display: block; max-width: 100%; width: min(100%, 760px); max-height: 460px; object-fit: contain; margin: 1rem auto 1.75rem auto; border-radius: 0.5rem; }
-  .portfolio-img.poster { width: min(100%, 360px); max-height: 560px; }
+  .portfolio-img.poster { width: min(100%, 420px); max-height: 640px; }
 </style>
 
 <nav class="page-nav">
@@ -41,11 +41,11 @@ latest_posts:
 
 ## About {#about}
 
-I am currently a PhD student in Computer Science at the University of Rochester, advised by Prof. Zhen Bai. My research focuses on embodied agents, interactive and tangible AI literacy, and educational technology, especially how learners engage with AI systems through games, spatial interaction, and exploratory learning environments.
+I am a PhD student in Computer Science at the University of Rochester, advised by Prof. Zhen Bai. My research focuses on <mark>embodied agents</mark>, <mark>interactive and tangible AI literacy</mark>, and educational technology: how learners encounter AI through games, spatial interaction, and exploratory learning environments.
 
-Before Rochester, I studied Computer Engineering at Sharif University of Technology and Cinema Studies at Soore University of Arts. My love for movies and storytelling has shaped how I think about technology: not only as software, but also as a cultural, educational, and expressive medium. Along the way, I contributed to SSC, co-founded the educational NGO Rasta, taught programming and creative writing at NODET schools, published short stories, directed podcasts and radio plays, and designed and curated the exhibition and curriculum for Iran's Computer Museum.
+Before Rochester, I studied Computer Engineering at Sharif University of Technology and Cinema Studies at Soore University of Arts. My love for movies and storytelling shapes how I think about technology: not only as software, but also as a cultural, educational, and expressive medium. Along the way, I contributed to SSC, co-founded the educational NGO [Rasta](https://rastaiha.ir), taught programming and creative writing at NODET schools, published short stories, directed podcasts and radio plays, and designed and curated the exhibition and curriculum for [Iran's Computer Museum](https://computermuseum.ir/).
 
-For as long as I remember, I have liked creating things. Whether it was a computer game when I was ten, a projection tool for displaying screens on water vapor in junior high, or an hour-long feature film in high school, I have always been drawn to reimagining reality through creative ideas.
+For as long as I remember, I have liked creating things. Whether it was a computer game when I was ten, a projection tool for displaying screens on water vapor in junior high, or an hour-long feature film in high school, I have always been drawn to <mark>reimagining reality through creative ideas</mark>.
 
 ## News {#news}
 
