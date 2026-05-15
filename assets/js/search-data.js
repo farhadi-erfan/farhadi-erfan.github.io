@@ -391,16 +391,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-my-short-film-watching-others-sleep-was-screened-at-tehran-short-film-week",
+          title: 'My short film Watching Others Sleep was screened at Tehran Short Film Week....',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-beecurious-was-presented-at-aied-2025-interactive-events",
+          title: 'BeeCurious was presented at AIED 2025 Interactive Events.',
           description: "",
           section: "News",},{id: "news-beetrap-mc-received-the-aaai-acm-sigai-innovative-ai-education-award-and-was-published-at-eaai-2026",
           title: 'BeeTrap-MC received the AAAI/ACM SIGAI Innovative AI Education Award and was published at...',
+          description: "",
+          section: "News",},{id: "news-meet-bip-was-accepted-to-isls-2026",
+          title: 'Meet Bip was accepted to ISLS 2026.',
           description: "",
           section: "News",},{id: "projects-project-8",
           title: 'project 8',
