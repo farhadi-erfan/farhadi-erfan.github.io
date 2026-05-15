@@ -72,7 +72,7 @@ My work at the intersection of cinema, AI, and computational narrative analysis.
 
 A 22-minute short film screened at Tehran Short Film Week in May 2024.
 
-<img class="portfolio-img poster" src="https://raw.githubusercontent.com/farhadi-erfan/farhadi-erfan-old/master/images/poster.png" alt="Watching Others Sleep poster">
+<img class="portfolio-img poster" src="/assets/img/watching-others-sleep-poster.jpg" alt="Watching Others Sleep poster">
 
 ### 2020--2023 · Iran Computer Museum
 
