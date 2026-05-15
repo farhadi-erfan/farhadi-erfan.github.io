@@ -26,24 +26,114 @@ latest_posts:
 ---
 
 <style>
-  html { scroll-behavior: smooth; }
-  h2 { scroll-margin-top: 5rem; }
-  .page-nav { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.25rem 0 2rem 0; }
-  .page-nav a { border: 1px solid var(--global-divider-color); border-radius: 999px; padding: 0.35rem 0.75rem; font-size: 0.9rem; text-decoration: none; }
-  .portfolio-img { display: block; max-width: 100%; width: min(100%, 760px); max-height: 460px; object-fit: contain; margin: 1rem auto 1.75rem auto; border-radius: 0.5rem; }
-  .portfolio-img.poster { width: min(100%, 420px); max-height: 640px; }
-  .soft-highlight { background: rgba(255, 230, 120, 0.35); border-radius: 0.2rem; padding: 0 0.15rem; font-size: 1em; }
-  .publications .pub-entry { display: flex; align-items: flex-start; gap: 1.4rem; margin-bottom: 2.1rem; width: 100%; }
-  .publications .pub-left { flex: 0 0 125px; max-width: 125px; text-align: center; }
-  .publications .pub-right { flex: 1 1 auto; min-width: 0; }
-  .publications .pub-badge { display: block; width: 100%; padding: 0.32rem 0.45rem; white-space: normal; }
-  .publications .title { color: var(--global-theme-color); }
-  .publications .pub-links { margin-top: 0.45rem; }
-  .publications .pub-links .btn { display: block; width: 100%; margin: 0 0 0.42rem 0; padding: 0.28rem 0.35rem; font-size: 0.72rem; line-height: 1.1; background-color: transparent; border: 1px solid var(--global-theme-color); color: var(--global-theme-color) !important; font-weight: 600; }
-  .publications .pub-links .btn:hover { background-color: var(--global-theme-color); color: #111 !important; }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h2 {
+    scroll-margin-top: 5rem;
+  }
+
+  .page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.25rem 0 2rem;
+  }
+
+  .page-nav a {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+
+  .portfolio-img {
+    display: block;
+    max-width: 100%;
+    width: min(100%, 760px);
+    max-height: 460px;
+    object-fit: contain;
+    margin: 1rem auto 1.75rem;
+    border-radius: 0.5rem;
+  }
+
+  .portfolio-img.poster {
+    width: min(100%, 420px);
+    max-height: 640px;
+  }
+
+  .soft-highlight {
+    background: rgba(255, 230, 120, 0.35);
+    border-radius: 0.2rem;
+    padding: 0 0.15rem;
+    font-size: 1em;
+  }
+
+  .publications .pub-entry {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.4rem;
+    width: 100%;
+    margin-bottom: 2.1rem;
+  }
+
+  .publications .pub-left {
+    flex: 0 0 125px;
+    max-width: 125px;
+    text-align: center;
+  }
+
+  .publications .pub-right {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .publications .pub-badge {
+    display: block;
+    width: 100%;
+    padding: 0.32rem 0.45rem;
+    white-space: normal;
+  }
+
+  .publications .title {
+    color: var(--global-theme-color);
+  }
+
+  .publications .pub-links {
+    margin-top: 0.45rem;
+  }
+
+  .publications .pub-links .btn {
+    display: block;
+    width: 100%;
+    margin: 0 0 0.42rem;
+    padding: 0.28rem 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--global-theme-color) !important;
+    background-color: transparent;
+    border: 1px solid var(--global-theme-color);
+  }
+
+  .publications .pub-links .btn:hover {
+    color: #111 !important;
+    background-color: var(--global-theme-color);
+  }
+
   @media (max-width: 575px) {
-    .publications .pub-entry { flex-direction: column; gap: 0.7rem; }
-    .publications .pub-left { flex: none; width: 150px; max-width: 150px; }
+    .publications .pub-entry {
+      flex-direction: column;
+      gap: 0.7rem;
+    }
+
+    .publications .pub-left {
+      flex: none;
+      width: 150px;
+      max-width: 150px;
+    }
   }
 </style>
 
@@ -56,7 +146,8 @@ latest_posts:
 
 ## About {#about}
 
-I am a PhD student in Computer Science at the University of Rochester, advised by Prof. Zhen Bai. I design and study <span class="soft-highlight">embodied agents</span> and <span class="soft-highlight">interactive AI literacy experiences</span>, especially learning systems where students encounter AI through games, spatial interaction, tangible metaphors, and exploratory environments.
+I am a PhD student in Computer Science at the University of Rochester, advised by Prof. Zhen Bai. I design and study
+<span class="soft-highlight">embodied agents</span> and <span class="soft-highlight">interactive AI literacy experiences</span>, especially learning systems where students encounter AI through games, spatial interaction, tangible metaphors, and exploratory environments.
 
 My background moves between engineering, cinema, and education. I studied Computer Engineering at Sharif University of Technology and Cinema Studies at Soore University of Arts, and that mix still shapes my work: I often think of technology not only as software, but also as a medium for narrative, culture, learning, and imagination. This thread continues in my current work on AI and cinema, where I extend my master's thesis through movie-scene search, narrative pattern mining, and VLM-based analysis of cinematic style.
 
