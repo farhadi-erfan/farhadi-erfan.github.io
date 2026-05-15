@@ -506,6 +506,11 @@ ninja.data = [{
           description: "Minecraft-based learning tool about filter bubbles",
           section: "Projects",handler: () => {
               window.location.href = "/projects/beetrap-mc/";
+            },},{id: "projects-cocolor",
+          title: 'CoColor',
+          description: "Interactive exploration of color designs",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cocolor/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
