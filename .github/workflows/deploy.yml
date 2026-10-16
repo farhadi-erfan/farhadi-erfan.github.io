@@ -17,6 +17,7 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
+      - "bin/verify-build.py"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -46,6 +47,7 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
+      - "bin/verify-build.py"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -63,6 +65,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: personal-site-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -93,14 +99,35 @@ jobs:
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
-          bundle exec jekyll build --url https://erfanfarhadi.com
+          printf '%s\n' 'url: https://erfanfarhadi.com' 'baseurl: ""' > "$RUNNER_TEMP/personal-site.yml"
+          bundle exec jekyll build --config "_config.yml,$RUNNER_TEMP/personal-site.yml"
           echo "erfanfarhadi.com" > _site/CNAME
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Verify generated website
+        run: python3 bin/verify-build.py
+      - name: Save tested website artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: personal-website-${{ github.sha }}
+          path: _site/
+          include-hidden-files: true
+          retention-days: 14
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+      - name: Deploy tested site to personal server
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.PERSONAL_SITE_DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.PERSONAL_SITE_DEPLOY_KNOWN_HOSTS }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/personal-site
+          chmod 600 ~/.ssh/personal-site
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          tar -czf - -C _site . | ssh -i ~/.ssh/personal-site -o BatchMode=yes -o IdentitiesOnly=yes root@65.109.181.151 "$GITHUB_SHA"
